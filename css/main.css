@@ -1,1 +1,41 @@
-
+body {
+	text-align: center;
+}
+.box {
+	display:inline-block;
+	height:250px;
+	width:20%;
+}
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: grey;
+}
+h1 {
+	opacity: 0;
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.orange {
+	background-color: orange;
+}
+@media(max-width: 600px) {
+	.red {
+		display: none;
+	}
+	.blue {
+		display: none;
+	}
+}
+@media(min-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+}
